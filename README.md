@@ -3,7 +3,7 @@ TRANSFORMER TOOLKIT
 
 A Python library for working with transformer models and utility functions.
 
-![Comparison of attn heads](./position_sensitivity.png)
+![Comparison of attn heads](./attn.png)
 
 ## Installation 
 
