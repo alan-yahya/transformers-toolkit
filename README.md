@@ -1,13 +1,16 @@
 TRANSFORMER TOOLKIT
 ==================
 
-A Python library for working with transformer models with utility functions.
+A Python library for working with transformer models and utility functions.
 
 ## Installation 
 
-git clone https://github.com/yourusername/transformer_toolkit.git
-cd transformer_toolkit
-pip install -e .
+
+`git clone https://github.com/alan-yahya/transformers-toolkit`
+
+`cd transformer_toolkit`
+
+`pip install -e .`
 
 ## Quick Start
 
@@ -20,7 +23,6 @@ Check out the `examples` directory for detailed examples:
 3. Batch Processing (`examples/batch_processing.py`)
 4. Attention Visualization (`examples/attention_visualization.py`)
 5. Text Preprocessing (`examples/text_preprocessing.py`)
-
 
 ## Requirements
 
