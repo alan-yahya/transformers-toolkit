@@ -1,47 +1,36 @@
 TRANSFORMER TOOLKIT
 ==================
 
-A Python library for working with transformer models.
+A Python library for working with transformer models with utility functions.
 
-INSTALLATION
------------
-pip install transformer_toolkit
+## Installation 
 
-REQUIREMENTS
------------
+git clone https://github.com/yourusername/transformer_toolkit.git
+cd transformer_toolkit
+pip install -e .
+
+## Quick Start
+
+from transformer_toolkit import TransformerModel, CustomTokenizer
+
+Check out the `examples` directory for detailed examples:
+
+1. Basic Usage (`examples/basic_usage.py`)
+2. Classification (`examples/classification.py`)
+3. Batch Processing (`examples/batch_processing.py`)
+4. Attention Visualization (`examples/attention_visualization.py`)
+5. Text Preprocessing (`examples/text_preprocessing.py`)
+
+
+## Requirements
+
 - Python >= 3.7
 - PyTorch >= 1.8.0
 - Transformers >= 4.0.0
 - NumPy >= 1.19.0
+- Matplotlib >= 3.3.0 (for visualization)
+- Seaborn >= 0.11.0 (for heatmaps)
 
-BASIC USAGE
-----------
-from transformer_toolkit import TransformerModel, CustomTokenizer
+## License
 
-# Initialize model and tokenizer
-model = TransformerModel("bert-base-uncased")
-tokenizer = CustomTokenizer("bert-base-uncased")
-
-# Process text
-text = "Hello, world!"
-encoded = model.encode(text, tokenizer)
-
-FEATURES
---------
-1. Easy-to-use interface for transformer models
-2. Custom tokenization support
-3. Utility functions for text processing
-4. Support for both CPU and GPU processing
-
-LICENSE
--------
 MIT License
-
-CONTACT
--------
-Author: Your Name
-Email: your.email@example.com
-GitHub: https://github.com/yourusername/transformer_toolkit
-
-For more information and detailed documentation, please visit:
-https://github.com/yourusername/transformer_toolkit 
